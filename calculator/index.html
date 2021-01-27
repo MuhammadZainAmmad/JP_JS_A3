@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div>
+        <div>
+            <input type="text" id="result">
+        </div>
+        <div>
+            <button  class="btns" onclick="getNumber('7')">7</button>
+            <button  class="btns" onclick="getNumber('8')">8</button>
+            <button  class="btns" onclick="getNumber('9')">9</button>
+            <button  class="btns" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button  class="btns">4</button>
+            <button  class="btns">5</button>
+            <button  class="btns">6</button>
+            <button  class="btns">-</button>
+        </div>
+        <div>
+            <button  class="btns">1</button>
+            <button  class="btns">2</button>
+            <button  class="btns">3</button>
+            <button  class="btns">'*'</button>
+        </div>
+        <div>    
+            <button  class="btns">0</button>
+            <button  class="btns">0</button>
+            <button  class="btns">'='</button>
+            <button  class="btns">'/'</button>
+        </div>
+    </div> -->
+
+    <table>
+        <tr>
+            <td colspan='4'><input type="text" placeholder="0" id="result" ></td>
+        </tr>
+        <tr>
+            <td onclick="getNumber('7')">7</td>
+            <td onclick="getNumber('8')">8</td>
+            <td onclick="getNumber('9')">9</td>
+            <td onclick="getNumber('+')">+</td>
+        </tr>
+        <tr>
+            <td onclick="getNumber('4')">4</td>
+            <td onclick="getNumber('5')">5</td>
+            <td onclick="getNumber('6')">6</td>
+            <td onclick="getNumber('-')">-</td>
+        </tr>
+        <tr>
+            <td onclick="getNumber('1')">1</td>
+            <td onclick="getNumber('2')">2</td>
+            <td onclick="getNumber('3')">3</td>
+            <td onclick="getNumber('*')">*</td>
+        </tr>
+        <tr>
+            <td onclick="clearResult()">C</td>
+            <td onclick="getNumber('0')">0</td>
+            <td onclick="evalResult()">=</td>
+            <td onclick="getNumber('/')">/</td>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
